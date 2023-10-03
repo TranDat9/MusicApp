@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewbackgroundbanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/custom_background_banner">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_alignBottom="@id/imageviewbackgroundbanner"
+        android:id="@+id/relativel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  <ImageView
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:padding="2dp"
+      android:id="@+id/imageviewbanner"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      >
+
+  </ImageView>
+      <TextView
+          android:textStyle="bold"
+          android:text="lo yeu mat roi"
+          android:textColor="#ffffff"
+          android:textSize="17sp"
+          android:id="@+id/titlebannerbaihat"
+          android:layout_toRightOf="@id/imageviewbanner"
+          android:layout_alignTop="@+id/imageviewbanner"
+          android:layout_marginTop="5dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+      </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/titlebannerbaihat"
+            android:layout_toRightOf="@id/imageviewbanner"
+            >
+        <TextView
+            android:id="@+id/noidung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginRight="40dp"
+            android:maxLines="2"
+            android:text="ca khuc hot"
+            android:textColor="#FFFFFF"
+            >
+
+        </TextView>
+        </RelativeLayout>
+  
+    </RelativeLayout>
+
+
+</RelativeLayout>

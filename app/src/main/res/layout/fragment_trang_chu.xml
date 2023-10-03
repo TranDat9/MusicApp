@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout"
+        >
+     <fragment
+         android:name="com.example.appnhac.Fragment.Fragment_Banner"
+         android:id="@+id/fragment_banner"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+     </fragment>
+
+        <fragment
+            android:name="com.example.appnhac.Fragment.Fragment_Playlist"
+            android:id="@+id/fragment_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+        <fragment
+            android:name="com.example.appnhac.Fragment.Fragment_ChuDe_TheLoai_ToDay"
+            android:id="@+id/fragment_chudevatheloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+        <fragment
+            android:name="com.example.appnhac.Fragment.Fragment_Album_Hot"
+            android:id="@+id/fragment_albumhot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+        <fragment
+            android:name="com.example.appnhac.Fragment.Fragment_BaiHat_Hot"
+            android:id="@+id/fragment_baihathot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

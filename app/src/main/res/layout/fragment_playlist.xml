@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+   
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Có Thể Bạn Muốn Nghe"
+        android:id="@+id/textviewtitleplaylist"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+
+        >
+
+    </TextView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listviewplaylist"
+        android:layout_below="@id/textviewtitleplaylist"
+        >
+
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0a0a0a"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#c9c7c7"
+        android:layout_below="@+id/listviewplaylist"
+        android:id="@+id/txtViewmoreplaylist"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:drawablePadding="10dp"
+        android:textSize="19sp"
+        android:text="xem them playlist"
+        >
+
+    </TextView>
+
+</RelativeLayout>

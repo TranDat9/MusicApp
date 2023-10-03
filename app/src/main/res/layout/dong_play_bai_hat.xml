@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textviewplaynahcindex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:textSize="17sp"></TextView>
+    <TextView
+        android:textSize="17sp"
+        android:singleLine="true"
+        android:maxWidth="250dp"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/textviewplaynahcindex"
+        android:layout_marginLeft="10dp"
+        android:text="Ha Tay Que Lua"
+        android:id="@+id/textviewplaynhactenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:maxWidth="250dp"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/textviewplaynahcindex"
+        android:layout_below="@+id/textviewplaynhactenbaihat"
+        android:layout_marginLeft="10dp"
+        android:text="Trong Tan"
+        android:id="@+id/textviewplaynhaccasibaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>
+</RelativeLayout>
