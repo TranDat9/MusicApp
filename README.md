@@ -1,4 +1,4 @@
 # MusicApp
 
-![Giao diện App]([images/github-logo.png](https://afafahahfnhac.000webhostapp.com/nhacmp3/trangchu.png)https://afafahahfnhac.000webhostapp.com/nhacmp3/trangchu.png)
+![trangchu](https://github.com/TranDat9/MusicApp/assets/92259100/00022dd2-5ce5-4d7c-8464-29fb803281db)
 
