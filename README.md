@@ -2,7 +2,7 @@
 
 #### Library
 * Retrofit , Okhttp
-#### Screnshot
+#### Screenshot
 <p align="center">
   <img src="https://github.com/TranDat9/MusicApp/assets/92259100/00022dd2-5ce5-4d7c-8464-29fb803281db" width="250">
   <img src="https://github.com/TranDat9/MusicApp/assets/92259100/4cf8216a-7feb-42d7-8b20-3d1b06d5b1a3" width="250">
